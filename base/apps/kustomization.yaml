@@ -1,2 +1,3 @@
 resources:
   - demo-application.yaml
+  - kong-gateway.yaml
