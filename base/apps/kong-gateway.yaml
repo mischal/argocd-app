@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: github.com/kong/kubernetes-ingress-controller/deploy/manifests/base
+    repoURL: https://github.com/Kong/kubernetes-ingress-controller.git
     targetRevision: HEAD
-    path: base
+    path: deploy/manifests/base
   destination:
     server: https://kubernetes.default.svc
     namespace: kong
