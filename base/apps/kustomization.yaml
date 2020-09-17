@@ -1,3 +1,4 @@
 resources:
+  - argocd.yaml
   - demo-application.yaml
   - kong-gateway.yaml
