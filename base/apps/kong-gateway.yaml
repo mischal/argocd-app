@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Kong/kubernetes-ingress-controller.git
-    targetRevision: 0.10.0
-    path: deploy/manifests/base
+    repoURL: https://github.com/mischal/argocd-app.git
+    targetRevision: master
+    path: base/kong
   destination:
     server: https://kubernetes.default.svc
     namespace: kong

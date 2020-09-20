@@ -1,0 +1,10 @@
+bases:
+#  - root-application.yaml
+ - github.com/Kong/kubernetes-ingress-controller.git/deploy/manifests/base?ref=0.10.0
+ # - github.com/Kong/kubernetes-ingress-controller/deploy/manifests/base
+  #- raw.githubusercontent.com/Kong/kubernetes-ingress-controller/main/deploy/manifests/base/kustomization.yaml
+  #- github.com/Liujingfang1/kustomize/examples/helloWorld
+
+
+patchesStrategicMerge:
+- service.yaml
