@@ -1,0 +1,5 @@
+resources:
+ - github.com/argoproj/argo-cd.git/manifests/base?ref=v1.7.5
+
+patchesStrategicMerge:
+ - config-map.yaml

@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argo-cd.git
-    targetRevision: v1.7.5
-    path: manifests/base
+    repoURL: https://github.com/mischal/argocd-app.git
+    targetRevision: master
+    path: base/argocd
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
