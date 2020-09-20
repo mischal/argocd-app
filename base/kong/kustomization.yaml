@@ -1,4 +1,4 @@
-bases:
+resources:
 #  - root-application.yaml
  - github.com/Kong/kubernetes-ingress-controller.git/deploy/manifests/base?ref=0.10.0
  # - github.com/Kong/kubernetes-ingress-controller/deploy/manifests/base
